@@ -68,7 +68,7 @@ export const NotificationSheet = () => {
         <Button size="icon" variant="outline" className="rounded-full relative">
           {!!totalUnread && (
             <Badge
-              className="absolute -top-1 -right-1 p-0 px-1"
+              className="absolute -top-1 -right-1 p-0 h-4 min-w-4 grid place-items-center leading-none"
               variant="destructive"
             >
               {totalUnread}
